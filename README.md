@@ -10,6 +10,8 @@ This repository contains a modified version of the original OnSSET code. The mod
 - sample_output: The directory shows the representative results from the electrification model: 
   - ng-1-0_0_0_0_0_0.csv (sample of full results)
   - ng-1-0_0_0_0_0_0_summary.csv (sample of summary results)
+ 
+  Note: The standalone system sizing algorithm which estimates the number of people per household has been modified. Specifically the number of people per household is now estimated by dividing the number of new connections(within a cluster) and not the total cluster population, by the number of people per household.  
 
 Guidelines on how to use the model can be found on the Global electrification platform: https://gep-onsset.readthedocs.io/en/latest/Scenario%20run.html
 
